@@ -32,3 +32,9 @@ $APKSIGNER sign \
   build/aligned.apk
 
 echo "✅ APK READY: build/aligned.apk"
+keytool -genkeypair -alias xp \
+  -keyalg RSA -keysize 2048 \
+  -validity 10000 \
+  -keystore xp.keystore
+chmod +x build.sh
+./build.sh
