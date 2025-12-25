@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This was only used for Android devices and Apple devices, even PCs. 
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -14,8 +13,10 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Windows XP is designed where to use. If not secured, then this may really cause errors on the page. Always turn off third party cookies to this. If not used, errors can cause.
+                                                               SECURITY NOTICE
+                                                          -------------------------
+                                                               This is an site
+                                                               that should be
+                                                               secured now.
+# Visit https://www.bluehost.com/blog/how-to-secure-your-website/ if it does not work.
