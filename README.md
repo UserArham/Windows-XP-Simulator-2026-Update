@@ -33,7 +33,7 @@ does NOT execute, load, or support Microsoft Windows applications.
 Specifically:
 
 - No Win32, .EXE, or MSI applications can be runned
-- No Windows system APIs are implemented
+- Some Windows system APIs are implemented, but not fully
 - No application compatibility layer is provided
 - No virtualization or emulation technology is used
 
