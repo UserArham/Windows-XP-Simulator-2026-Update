@@ -1,0 +1,20 @@
+name; "Terminal"
+ text; based-Terminal; base64 
+  txt-UTC;16 "terminal-format.ttf"
+Terminal-define; base64 track:"terminal-format.ttf"
+ div
+ ;64-bit design track:"x64.html"
+      div; copy <iframe>
+       applyer track:"base64.json"
+        # Readme
+    (shortcut;Note:"Windows font named Terminal with easy looks.")
+font; 250x125px
+          ;80px
+  Font; Terminal-Base64-utc;16 "textpicker.com/Terminal"
+  letters; base64-UTC;32 (letter:a;b;c;d;e;f;g;h;i;j;k;l;m;n;o;p;q;r;s;t;u;v;w;x;y;z)
+  numbers; base64-UTC;108 (number:1;2;3;4;5;6;7;8;9;0)
+www.textpicker.com/Terminal-028736378
+ (example:"WXT737F")
+Notes; notepad-launch:direct;"direct track;"Notepad.html"
+           WIC_direct;45x30px
+            launch; "Notepad.html"
