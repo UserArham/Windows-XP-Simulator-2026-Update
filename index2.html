@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>XP.quenq.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Android font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #0b0f1a;
+  --surface: #12162a;
+  --primary: #7c8cff;
+  --on-surface: rgba(255,255,255,0.92);
+  --on-muted: rgba(255,255,255,0.6);
+  --elevation: 0 10px 40px rgba(0,0,0,.6);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", system-ui, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(1200px at top, #1b1f3b, var(--bg));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Phone frame */
+.phone {
+  width: 390px;
+  height: 820px;
+  background: black;
+  border-radius: 34px;
+  padding: 12px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.08),
+              0 40px 120px rgba(0,0,0,0.8);
+}
+
+/* App surface */
+.app {
+  width: 100%;
+  height: 100%;
+  background: var(--surface);
+  border-radius: 26px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Status bar */
+.status {
+  height: 28px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--on-muted);
+}
+
+/* App bar */
+.appbar {
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.05),
+    rgba(255,255,255,0)
+  );
+  color: var(--on-surface);
+  font-weight: 500;
+  letter-spacing: .04em;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  position: relative;
+}
+
+/* Loader */
+.loader {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.6);
+  color: var(--on-surface);
+  letter-spacing: .2em;
+  font-size: 12px;
+  z-index: 5;
+  transition: opacity .5s ease;
+}
+
+.loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Bottom navigation */
+.nav {
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.nav div {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+}
+
+@media (max-width: 420px) {
+  .phone {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    padding: 0;
+  }
+  .app {
+    border-radius: 0;
+  }
+}
+</style>
+</head>
+
+<body>
+<div class="phone">
+  <div class="app">
+
+    <div class="status">
+      <span>12:42</span>
+      <span>5G ▪︎ 82%</span>
+    </div>
+
+    <div class="appbar">
+      XP.QUENQ
+    </div>
+
+    <div class="content">
+      <div class="loader" id="loader">LOADING</div>
+      <iframe
+        src="https://xp.quenq.com"
+        loading="eager"
+        referrerpolicy="no-referrer">
+      </iframe>
+    </div>
+
+    <div class="nav">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const iframe = document.querySelector("iframe");
+const loader = document.getElementById("loader");
+
+iframe.addEventListener("load", () => {
+  loader.classList.add("hidden");
+});
+</script>
+</body>
+</html>
