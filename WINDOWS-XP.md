@@ -46,3 +46,4 @@ Microsoft recommended upgrading to a newer version of Windows or replacing hardw
 
 ## Conclusion
 Windows XP marked an important era in personal computing. However, continued use after end of support poses serious security and compatibility risks. Today, Windows XP should only be used in offline or legacy environments.
+![download](https://github.com/user-attachments/assets/3ce2f7b4-1444-4e49-a144-8ab41b203139)
