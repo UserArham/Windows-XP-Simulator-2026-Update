@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="fonts.googleapis.com" rel="stylesheet">
+    <style>
+        .terminal-container {
+            font-family: 'Ubuntu Mono', 'Consolas', monospace;
+            background-color: #300a24; /* Ubuntu Aubergine */
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.6;
+            max-width: 800px;
+            border-top: 25px solid #481434; /* Title bar effect */
+            position: relative;
+        }
+        
+        /* Terminal Window Buttons */
+        .terminal-container::before {
+            content: "● ● ●";
+            color: #ff5f56; /* Red, Yellow, Green mockup */
+            letter-spacing: 5px;
+            position: absolute;
+            top: -22px;
+            left: 10px;
+            font-size: 12px;
+        }
+
+        .prompt { color: #87ff5f; font-weight: bold; } /* User prompt green */
+        .path { color: #5fafff; font-weight: bold; }   /* Directory blue */
+        .keyword { color: #E95420; font-weight: bold; } /* Ubuntu Orange */
+        .history-text { color: #dfd8c8; } /* Ubuntu light gray text */
+        .link { color: #5fafff; text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="terminal-container">
+    <div><span class="prompt">user@jpclinux</span>:<span class="path">~</span>$ cat history.txt</div>
+    
+    <div class="history-text">
+        <p><span class="keyword">[Seoul, 2018]</span> App not ready yet, but moderators of NanoTech appeared in Vercel while I was in Seoul, South Korea. They asked to form an emulator. Some suggested "Linux Run" or "PreLinux," but I chose <span class="keyword">JPCLinux</span>.</p>
+        
+        <p><span class="keyword">[April 2018]</span> As teenagers, we couldn't do it alone. We formed it in a lab, and upon my return to Japan, I developed JPCLinux myself.</p>
+        
+        <p><span class="keyword">[2023]</span> My moderators worked from 6am to 7pm in Japan. I launched a website on Google Sites, though it was eventually influenced by DistroSea and OnWorks.</p>
+        
+        <p><span class="keyword">[April 2024]</span> We published JPCLinux as a Svelte app on CodeSandbox, but it didn't go as planned.</p>
+        
+        <p><span class="keyword">[January 2025]</span> Successfully published via LlamaCoder at a /share/ website.</p>
+    </div>
+
+    <div><span class="prompt">user@jpclinux</span>:<span class="path">~</span>$ git diff v3.0...v4.0</div>
+    <div style="color: #87ff5f;">+ Full Changelog: v3.0...v4.0 successfully deployed.</div>
+    <div><span class="prompt">user@jpclinux</span>:<span class="path">~</span>$ <span style="animation: blink 1s step-end infinite;">_</span></div>
+</div>
+
+<style>
+    @keyframes blink { 50% { opacity: 0; } }
+</style>
+
+</body>
+</html>
