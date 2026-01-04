@@ -150,8 +150,7 @@ COPYRIGHT INFORMATION
 © 2005–2006 Microsoft Corporation. All rights reserved.
 © 2006 Windows is a trademark of Microsoft Corporation.
 
-flowchart LR
-  A["Windows<br/>IMG tracked"] -- "rename and<br/>update extension" --> B["Windows XP (simulation)<br/>HTML tracked"]
+
   
 ------------------------------------------------------------------------
 
