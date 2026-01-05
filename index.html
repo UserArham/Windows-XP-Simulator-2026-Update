@@ -9,8 +9,8 @@
   <meta name="description" content="Windows XP Experience">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Sans Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -18,6 +18,9 @@
       --glass: rgba(255, 255, 255, 0.07);
       --border: rgba(255, 255, 255, 0.18);
       --glow: rgba(120, 140, 255, 0.45);
+      --header-text: #E8EAED;
+      --loader-text: #FFFFFF;
+      --loader-bg: rgba(33, 33, 33, 0.85);
     }
 
     * {
@@ -62,10 +65,10 @@
       height: 56px;
       display: flex;
       align-items: center;
-      padding: 0 20px;
+      padding: 0 24px;
       background: linear-gradient(
         to bottom,
-        rgba(0,0,0,0.35),
+        rgba(0,0,0,0.25),
         rgba(0,0,0,0)
       );
       z-index: 10;
@@ -73,9 +76,10 @@
     }
 
     header span {
-      font-size: 14px;
-      letter-spacing: 0.14em;
-      color: rgba(255,255,255,0.85);
+      font-size: 16px;        /* Material subtitle1 size */
+      font-weight: 500;       /* Medium */
+      letter-spacing: 0.15px;
+      color: var(--header-text);
     }
 
     iframe {
@@ -90,14 +94,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 13px;
-      letter-spacing: 0.2em;
-      color: rgba(255,255,255,0.8);
-      background: linear-gradient(
-        180deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.8)
-      );
+      font-size: 14px;       /* Material body2 size */
+      font-weight: 500;       /* Medium for visibility */
+      letter-spacing: 0.1em;
+      color: var(--loader-text);
+      background: var(--loader-bg);
+      border-radius: 12px;
       transition: opacity 0.6s ease;
       z-index: 20;
       pointer-events: none;
