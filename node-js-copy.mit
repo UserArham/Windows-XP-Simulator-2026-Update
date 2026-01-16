@@ -1,0 +1,31 @@
+<FILETYPE MIT>
+#node "index.html"
+#applicate "index.html"
+ <inline>295%#8738#&484394%337383494874<inline>
+#copy "<inline. tag20%>"
+<-------------IFRAME USERA IN JAVASCRIPT------------------>
+#copy "MIT.csr"
+deploy mit "300MPBase64"
+ lang "Base64 300MP"
+  save "USERA.cpm"
+<iframe 
+   src="https://quenq.com/labs/reborn-xp/" 
+        title="Reborn XP Simulator"
+        allowfullscreen
+        loading="lazy">
+    </iframe>
+</div>
+#copy "iframe.h"
+<-------------JAVA INLINE USERA-------------------------->
+#deploy "APK v1.0.java"
+#launch "MIT.csr"
+ <inline>295%#8738#&484393347468*#$HM0384<inline>
+ try {
+    javax.swing.UIManager.setLookAndFeel(
+        javax.swing.UIManager.getSystemLookAndFeelClassName()
+    );
+} catch (Exception e) {
+    e.printStackTrace();
+}
+#deploy "iframe.h"
+<mit>
