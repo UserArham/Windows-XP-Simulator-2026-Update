@@ -1,0 +1,11 @@
+aod; [app-release.apk}
+from; [.:/Files/ChromeOS]
+ require; 80x60x40px
+        30x60x90px
+quality; [720p]
+size; [870x720p]
+ version;
+     {Android /app-release.apk}
+     {ChromeOS Linux /app-release.apk}
+     {Android x86-2016 /app-release.apk}
+aod; [CHARGE/ChromeOS]
