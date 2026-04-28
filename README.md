@@ -2,7 +2,7 @@
                          WINDOWS XP SIMULATOR
 
 README.TXT
-Release Date: 11/08/2005
+Release Date: 11/08/2005, official simulator RTM release, December 26, 2025.
 
 ========================================================================
 
