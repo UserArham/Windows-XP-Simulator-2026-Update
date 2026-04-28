@@ -112,6 +112,7 @@ Windows XP Simulator does NOT:
 - Run Microsoft Windows applications
 - Provide hardware, registry, or kernel-level access
 - Supply networking, security, or system services
+- Restricts to IE 6, not 7 and 8 (WHICH I HATE THE MOST)
 
 Actual behavior may differ significantly from a genuine Windows XP
 installation.
