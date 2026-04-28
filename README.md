@@ -150,7 +150,7 @@ COPYRIGHT INFORMATION
 
 © 2005–2006 Microsoft Corporation. All rights reserved.
 © 2006 Windows is a trademark of Microsoft Corporation.
-
+© 2025-2026 created by UserArham.
 
   
 ------------------------------------------------------------------------
