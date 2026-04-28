@@ -7,9 +7,10 @@ This was only used for Android devices and Apple devices, even PCs.
 | Version | Supported          |
 | ------- | ------------------ |
 | 5.1.x   | :white_check_mark: |
-| 5.0.x   | ✅:                |
+| 5.0.x   | ✅                 |
 | 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 3.0     | ⚠                 |
+| < 2.3   | 🚫                 |
 
 ## Reporting a Vulnerability
 
