@@ -152,9 +152,20 @@ COPYRIGHT INFORMATION
 © 2006 Windows is a trademark of Microsoft Corporation.
 © 2025-2026 created by UserArham.
 
-WINDOWS IMAGES LIVE ON VERCEL
-=============================
-<img width="1364" height="764" alt="developer" src="https://github.com/user-attachments/assets/2ec72290-0f41-46b3-9ef1-ea8e19e61f25" />
-<img width="607" height="424" alt="image" src="https://github.com/user-attachments/assets/3f3b48cf-f508-4cf4-ba21-7a8cebaad63a" />
-<img width="721" height="473" alt="image" src="https://github.com/user-attachments/assets/7b279947-76d0-4b2b-bb91-dd6cce45411b" />
+HTML5 TLS SUPPORT INCLUDE
+=========================
+If you are using a **phone like iOS or Android** (Android 14+ recommended for better graphics), please follow these limits.
 
+### For iOS
+- If you are using the **iPhone 14** or higher (iOS 16-26), TLS 1.2 is fast and secure, and Quenq required modern TLS anyway starting the release from 2024.
+- If you are using between the **iPhone XS** to the **iPhone 13** (iOS 12-26), this still has TLS 1.2, which is what our simulator, amd Quenq needed it for no slowness *even* it is just a mockup.
+- If you are using between the **iPhone 7 Plus** to the **iPhone X** (iOS 10-16), this somehow has TLS 1.1 or maybe TLS 1.2. Quenq will run, but some features like Internet Explorer sometimes show a unsupported message when searching the web browser and web results sometime crash.
+- If you have the **iPhone 7** or older (iOS 1-10), the browser has TLS 1.1 which is now gonna be unsupported, or TLS 1.0. They even had SSL which is unsupported from the 2010s.
+### For Android (Samsung)
+- If you have the **Samsung Galaxy S10** or higher (One UI 2-8.5), TLS 1.2 and 1.3 is secure for the Quenq website.
+- If you have between **Samsung Galaxy S8** to the **Galaxy S9**, it has TLS 1.1 and 1.2, sometimes secure but 1.1 is deceased in 2018 and unsupported.
+- If you have the **Note 7**, FORGET ABOUT THAT **IT IS A FIRE HAZARD**! Do not use it for web browsing or charging.
+- If you have the **Samsung Galaxy Note FE** to the **Galaxy S5**, it has TLS 1.1 or maybe 1.2, same thing.
+- If you have the **Galaxy Note 4** to the **Galaxy S1**, it is unsuppored to be 32-bit, and TLS 1.1 or 1.0.
+### One more heads up
+Do not use the **Samsung Galaxy Note 7** for normal use or charging. According to [BBC](https://www.bbc.com/news/business-38714461), **Samsung's probe into its Galaxy Note 7 fiasco has found that the overheating and burning of the phones was caused by faults with their batteries.** Battery leaks cause by being **too big** and this is why we should forget the Note 7 forever, that causes multiple fire explosions and was recalled. DO not use it for our **[Quenq](xp.quenq.com)** simulator or sometime it might explode. Even though it is just a Galaxy Note, it is considered a **hazard** and you should use a safer Note 7 like the **Fan Edition**.
