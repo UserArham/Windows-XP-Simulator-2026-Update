@@ -158,7 +158,7 @@ If you are using a **phone like iOS or Android** (Android 14+ recommended for be
 
 ### For iOS
 - If you are using the **iPhone 14** or higher (iOS 16-26), TLS 1.2 is fast and secure, and Quenq required modern TLS anyway starting the release from 2024.
-- If you are using between the **iPhone XS** to the **iPhone 13** (iOS 12-26), this still has TLS 1.2, which is what our simulator, amd Quenq needed it for no slowness *even* it is just a mockup.
+- If you are using between the **iPhone XS** to the **iPhone 13** (iOS 12-26), this still has TLS 1.2, which is what our simulator, and Quenq needed it for no slowness *even* it is just a mockup.
 - If you are using between the **iPhone 7 Plus** to the **iPhone X** (iOS 10-16), this somehow has TLS 1.1 or maybe TLS 1.2. Quenq will run, but some features like Internet Explorer sometimes show a unsupported message when searching the web browser and web results sometime crash.
 - If you have the **iPhone 7** or older (iOS 1-10), the browser has TLS 1.1 which is now gonna be unsupported, or TLS 1.0. They even had SSL which is unsupported from the 2010s.
 ### For Android (Samsung)
