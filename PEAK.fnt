@@ -1,0 +1,29 @@
+<-------- Based on the long living website, textpicker.com  -------->
+
+load-font'WHY=I-Am-Lazy"
+
+.milo
+
+ milo command htc
+ milo command texting
+ milo command smart
+ milo command "TrustMilo.xml"
+
+UTC;8-base64, (Fetch:textpicker.com/milo.xml)
+UTC;8-base64, (Fetch:textpicker.com/peak.ttf)
+UTC;8-base64, (google.com/peak.ttf)
+
+follow set rule: "WeTrustMilo, milo.xml"
+milo-ears: "ear.xml"
+
+enter; "https://github.com/UserArham/Chromecraft-1.14.4"; "dig, assets.epk", copy-code, add-lines; "milo3.o,TTF"
+
+ milo command "assets.epk/copyed", give it to "textpicker.com/milo"
+
+ inject-WEBSITE: userarham.github.io/Chromecraft-1.14.4
+
+ speak: "ABCDEFGHIJKLMNOPQRSTUVWXYZ, 1234567890", peak.ttf, ruleset: "WeLoveMilo"
+
+now, piglin piglin piglin piglin piglin piglin piglin piglin piglin, set piglins - milo "YES"
+
+p i g l i n
